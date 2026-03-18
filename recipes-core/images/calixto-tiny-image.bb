@@ -1,5 +1,5 @@
 SUMMARY = "Calixto Custom Tiny Image"
-DESCRIPTION = "Custom image for AM62L Stamp Board based on Arago TI SDK"
+DESCRIPTION = "Based on Arago TI SDK"
 
 # Pull in everything from the TI base image
 require recipes-core/images/tisdk-tiny-image.bb
@@ -8,5 +8,4 @@ require recipes-core/images/tisdk-tiny-image.bb
 export IMAGE_BASENAME = "calixto-tiny-image"
 
 # Optional: Add specific packages only for your custom image
-IMAGE_INSTALL:append = " strace tree"
-IMAGE_INSTALL:append = " pip-sl"
+IMAGE_INSTALL:append = " tree alsa-utils-aplay alsa-utils-amixer alsa-utils-speakertest alsa-state"
