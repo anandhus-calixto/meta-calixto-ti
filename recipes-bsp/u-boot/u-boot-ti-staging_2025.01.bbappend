@@ -1,7 +1,7 @@
-UBOOT_GIT_URI = "git://github.com/anandhus-calixto/calixto-ti-u-boot-upgrade-test1.git"
+UBOOT_GIT_URI = "git://github.com/eaglelinuxplatform/calixto-ti-uboot.git"
 
-BRANCH = "main"
+BRANCH = "2025.01"
 
-SRCREV_uboot = "2fe50f80a8317f86d7fb4da9340d02cb06a418a7"
+SRCREV_uboot = "95cd3e931f1324cfac454bc060e320e021c94175"
 
 
